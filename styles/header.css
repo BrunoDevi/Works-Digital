@@ -2,8 +2,11 @@
     background: var(--cor-gradiente);
     padding: 0.5em 1.5em;
     text-align: center;
-    color: white;
+    color: var(--cor-Secundaria);
     font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-style: italic; 
 }
 
 header{

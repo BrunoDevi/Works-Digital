@@ -5,10 +5,29 @@
     text-align: center;
     justify-content: center;
     gap: 1em;
-    padding: 2em;
+    padding: 1em;
     color: var(--cor-Secundaria);
 }
 
 .banner__img{
     width: 120px;
+}
+
+.banner__title{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.banner__text{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.banner__button{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--cor-Primaria);
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
 }

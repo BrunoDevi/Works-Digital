@@ -1,9 +1,10 @@
 @import url('/styles/header.css');
 @import url('/styles/banner.css');
+@import url('/styles/serviços.css');
 
 :root{
-    --cor-Primaria: #3B60F2;
-    --cor-Secundaria: #ffffff;
+    --cor-Primaria: #3DB1AE;
+    --cor-Secundaria: #f0f0f0;
     --cor-Fundo: #1d1d1d;
     --cor-gradiente: linear-gradient(90deg, rgba(221,38,128,1) 0%, rgba(116,79,158,1) 100%);
     --font-Principal: 'Poppins', sans-serif;
@@ -12,6 +13,8 @@
 body{
     background-color: var(--cor-Fundo);
     font-family: var(--font-Principal);
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .body:before {
