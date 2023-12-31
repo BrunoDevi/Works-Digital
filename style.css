@@ -35,3 +35,29 @@ body{
 .texto_destaque{
     color: var(--cor-Primaria);
 }
+
+.botao-topo {
+    cursor: pointer;
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    width: 50px;
+    height: 50px;
+    background: var(--cor-gradiente);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 10000;
+}
+  
+.botao-topo:hover {
+    animation: slide-bottom 0.5s forwards; /* Define a animação scaleUp quando o botão é hover e executa uma vez */
+}
+  
+.botao-topo img {
+    width: 1.5rem;
+}
