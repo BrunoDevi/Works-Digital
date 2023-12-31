@@ -1,0 +1,38 @@
+.banner5{
+    background-color: white;
+    padding: 2.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.banner5__destaque{
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.banner5__title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner5__text{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.banner5__img{
+    border-radius: 10px;
+}
+
+.banner5__button{
+    background: var(--cor-Primaria);
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    font-weight: 500;
+}
