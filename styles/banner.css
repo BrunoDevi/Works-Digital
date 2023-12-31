@@ -1,0 +1,14 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+    color: var(--cor-Secundaria);
+}
+
+.banner__img{
+    width: 120px;
+}

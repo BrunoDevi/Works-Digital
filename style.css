@@ -5,14 +5,24 @@
     --cor-Primaria: #3B60F2;
     --cor-Secundaria: #ffffff;
     --cor-Fundo: #1d1d1d;
+    --cor-gradiente: linear-gradient(90deg, rgba(221,38,128,1) 0%, rgba(116,79,158,1) 100%);
     --font-Principal: 'Poppins', sans-serif;
 }
 
 body{
-    box-sizing: border-box;
     background-color: var(--cor-Fundo);
-    position: relative;
     font-family: var(--font-Principal);
+}
+
+.body:before {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor-Fundo);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .texto_destaque{
