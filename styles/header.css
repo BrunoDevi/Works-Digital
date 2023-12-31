@@ -1,0 +1,58 @@
+.Oferta{
+    background-color: var(--cor-Primaria);
+    padding: 0.5em 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em 1em;
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.header__Menu{
+    display: flex;
+
+}
+.menu__check{
+    display: none;
+}
+
+.menu__check:checked ~ .lista-menu {
+    display: block;
+  }
+
+.menu-hamburguer{
+    width: 30px;
+    cursor: pointer;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 96%;
+    right: 1rem;
+    text-align: end;
+    background-color: var(--cor-Primaria);
+    box-shadow: 3px 3px 50px inset black;
+    border-radius: 10px;
+}
+
+.lista-menu__item {
+    color: var(--cor-Secundaria);
+    padding: 0.3em;
+    padding: 1em;
+}
+
+.lista-menu__item:hover{
+    background-color: #2739805b;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+@import url('/styles/header.css');
+@import url('/styles/banner.css');
+
+:root{
+    --cor-Primaria: #3B60F2;
+    --cor-Secundaria: #ffffff;
+    --cor-Fundo: #1d1d1d;
+    --font-Principal: 'Poppins', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-Fundo);
+    position: relative;
+    font-family: var(--font-Principal);
+}
+
+.texto_destaque{
+    color: var(--cor-Primaria);
+}
