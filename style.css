@@ -2,6 +2,7 @@
 @import url('/styles/banner.css');
 @import url('/styles/serviços.css');
 @import url('/styles/banner2.css');
+@import url('/styles/banner3.css');
 
 :root{
     --cor-Primaria: #3DB1AE;
