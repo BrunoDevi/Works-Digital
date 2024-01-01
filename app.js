@@ -1,4 +1,5 @@
-document.querySelector('.menu-button').addEventListener('click', () => { //MENU TAB
+//MENU TAB -start
+document.querySelector('.menu-button').addEventListener('click', () => { 
     var menu = document.querySelector('.menu');
     menu.classList.toggle('open-menu');
 
@@ -8,6 +9,7 @@ document.querySelector('.menu-button').addEventListener('click', () => { //MENU 
         }
     })
 })
+//MENU TAB - end
 
 //BOTÃO 'TOPO' - start
 function Top() { // adiciona a funcão de voltar ao topo da pagina
@@ -24,3 +26,29 @@ window.addEventListener('scroll', function() {
     }
 });
 //BOTÃO 'TOPO' - end
+
+//CAROSSEL CONFIG - start
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    speed: 400,
+    spaceBetween: 100,
+
+    autoplay: {
+        delay: 2000, // tempo em entre cada slide
+        disableOnInteraction: false, // mantém o autoplay após a interação do usuário
+    },
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+});
+//CAROSSEL CONFIG - end

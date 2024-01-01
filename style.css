@@ -5,6 +5,7 @@
 @import url('/styles/banner3.css');
 @import url('/styles/banner4.css');
 @import url('/styles/banner5.css');
+@import url('/styles/product.css');
 
 :root{
     --cor-Primaria: #3DB1AE;
@@ -19,6 +20,7 @@ body{
     font-family: var(--font-Principal);
     font-size: 1em;
     font-weight: 400;
+    box-sizing: border-box;
 }
 
 .body:before {
