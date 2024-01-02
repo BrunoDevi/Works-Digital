@@ -13,6 +13,11 @@
     width: 120px;
 }
 
+.banner__video{
+    width: 250px;
+    border-radius: 10px;
+}
+
 .banner__title{
     font-size: 22px;
     font-weight: 500;

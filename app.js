@@ -61,3 +61,6 @@ const swiper = new Swiper('.swiper', {
       }
 });
 //CAROSSEL CONFIG - end
+
+const video = document.querySelector('.banner__video');
+video.play();
