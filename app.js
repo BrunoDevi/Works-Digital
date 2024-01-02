@@ -64,4 +64,29 @@ const swiper = new Swiper('.swiper', {
 
 //VIDEO SETTINGS - start
 const video = document.querySelector('.banner__video');
+//video.play();
 //VIDEO SETTINGS - end
+
+//CONTADOR - start
+const telaDeTempo = document.querySelector('.banner6__telaContador');
+let contador = 22320 //tempo em segundos
+
+const contagemRegresiva = ()=>{
+    if(contador <= 0){ // Executa ao final da contagem
+        telaDeTempo.innerHTML = 'Tempo Encerrado'
+    }
+    
+    contador -= 1; // Loop do temporizador
+    displayTime()
+}
+
+temporizador = setInterval(contagemRegresiva, 1000); // Executa ao iniciar
+
+function displayTime(){ // Mostra o contador na tela
+    let tempo = new Date(contador * 1000);
+    let tempoFormatado = tempo.toLocaleString('pt-Br', {hour: '2-digit', minute: '2-digit', second: '2-digit'});
+    telaDeTempo.innerHTML = `${tempoFormatado}`;
+}
+
+displayTime(); //mantem o contador em display na tela
+//CONTADOR - end

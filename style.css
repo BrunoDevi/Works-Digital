@@ -6,6 +6,7 @@
 @import url('/styles/banner4.css');
 @import url('/styles/banner5.css');
 @import url('/styles/product.css');
+@import url('/styles/banner6.css');
 
 :root{
     --cor-Primaria: #3DB1AE;
@@ -36,6 +37,11 @@ body{
 
 .texto_destaque{
     color: var(--cor-Primaria);
+}
+
+.texto_negrito{
+    color: var(--cor-Fundo);
+    font-weight: 600;
 }
 
 .botao-topo {
