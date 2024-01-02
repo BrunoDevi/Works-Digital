@@ -62,6 +62,6 @@ const swiper = new Swiper('.swiper', {
 });
 //CAROSSEL CONFIG - end
 
-
+//VIDEO SETTINGS - start
 const video = document.querySelector('.banner__video');
-video.play();
+//VIDEO SETTINGS - end
