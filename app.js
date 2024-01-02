@@ -31,8 +31,9 @@ window.addEventListener('scroll', function() {
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
-    speed: 400,
+    speed: 300,
     spaceBetween: 100,
+    slidesPerView: 1,
 
     autoplay: {
         delay: 2000, // tempo em entre cada slide
@@ -50,5 +51,13 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+
+    breakpoints: {
+        // when window width is >= 1240px
+        1040: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        }
+      }
 });
 //CAROSSEL CONFIG - end
