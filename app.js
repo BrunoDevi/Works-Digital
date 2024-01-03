@@ -58,13 +58,13 @@ const swiper = new Swiper('.swiper', {
           slidesPerView: 2,
           spaceBetween: 20
         }
-      }
+    }
 });
 //CAROSSEL CONFIG - end
 
 //VIDEO SETTINGS - start
 const video = document.querySelector('.banner__video');
-//video.play();
+video.play();
 //VIDEO SETTINGS - end
 
 //CONTADOR - start

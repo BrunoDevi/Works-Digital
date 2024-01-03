@@ -1,0 +1,117 @@
+.planos__title__img{
+    width: 100px;
+}
+
+.planos__card__content__img{
+    width: 20px;
+}
+
+.planos{
+    background-color: black;
+    color: white;
+    padding: 4em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    text-align: center;
+}
+
+.planos__title{
+    background-color: var(--cor-Fundo);
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid rgba(245, 245, 245, 0.155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.planos__cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.planos__card__container{
+    background-color: var(--cor-Fundo);
+    padding: 2.5em 0.5em;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+    border: 1px solid rgba(245, 245, 245, 0.155);
+}
+
+.planos__card__tag{
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    background-color: var(--cor-Primaria);
+    width: 140px;
+    padding: 0.5em;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.planos__card__title{
+    font-size: 30px;
+    font-weight: 580;
+    letter-spacing: 2px;
+}
+
+.planos__card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-start;
+    width: 250px;
+}
+
+.planos__card__content__bonus{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.planos__card__content li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.planos__card__subtitle{
+    font-size: 22px;
+}
+
+.planos__card__price{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.planos__card__button{
+    background: var(--cor-Primaria);
+    color: white;
+    padding: 1em 2em;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 250px;
+}
+
+.texto_improviso{
+    color: var(--cor-Primaria);
+    font-weight: 600;
+}
