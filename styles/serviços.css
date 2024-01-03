@@ -57,7 +57,7 @@
 .serviços__button{
     text-align: center;
     color: white;
-    background-color: var(--cor-Primaria);
+    background-color: var(--button-gradiente);
     padding: 0.8em 2em;
     border-radius: 5px;
     margin: 0 2em 1em 2em;

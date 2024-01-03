@@ -103,7 +103,7 @@
 }
 
 .planos__card__button{
-    background: var(--cor-Primaria);
+    background: var(--button-gradiente);
     color: white;
     padding: 1em 2em;
     border-radius: 5px;

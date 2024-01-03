@@ -29,7 +29,7 @@
 }
 
 .banner5__button{
-    background: var(--cor-Primaria);
+    background: var(--button-gradiente);
     color: white;
     padding: 0.8em 2em;
     border-radius: 5px;

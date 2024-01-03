@@ -32,7 +32,7 @@
 .banner__button{
     font-size: 14px;
     font-weight: 500;
-    background-color: var(--cor-Primaria);
+    background: var(--button-gradiente);
     padding: 1em 1.5em;
     border-radius: 5px;
     cursor: pointer;
