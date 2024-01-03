@@ -10,6 +10,7 @@
 @import url('/styles/planos.css');
 @import url('/styles/garantia.css');
 @import url('/styles/funcionalidade.css');
+@import url('/styles/referencias.css');
 
 :root{
     --cor-Primaria: #3DB1AE;
