@@ -106,12 +106,16 @@
 }
 
 .planos__card__button{
-    background: var(--button-gradiente);
-    color: white;
-    padding: 1em 2em;
-    border-radius: 5px;
+    font-size: 1.5em;
     font-weight: 500;
-    width: 15.6em;
+    font-family: var(--font-Secundaria);
+    background: var(--button-gradiente);
+    padding: 0.5em 0.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+    color: white;
+    margin-bottom: 1em;
 }
 
 .texto_improviso{

@@ -31,7 +31,7 @@
 }
 
 .banner__button{
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 500;
     font-family: var(--font-Secundaria);
     background: var(--button-gradiente);

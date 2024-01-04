@@ -27,12 +27,17 @@
 
 .cursos__img{
     border-radius: 0.62em;
+    width: 20em;
 }
 
 .cursos__button{
-    background: var(--button-gradiente);
     color: white;
-    padding: 0.8em 2em;
-    border-radius: 5px;
+    font-size: 1.5em;
     font-weight: 500;
+    font-family: var(--font-Secundaria);
+    background: var(--button-gradiente);
+    padding: 0.5em 0.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: pulse 1s infinite;
 }
