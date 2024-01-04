@@ -33,7 +33,7 @@
 .planos__cards{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items:baseline;
     justify-content: center;
     gap: 1.5em;
 }
@@ -79,6 +79,10 @@
     width: 250px;
 }
 
+.planos__card__content__text{
+    text-align: start;
+}
+
 .planos__card__content__bonus{
     font-size: 13px;
     font-weight: 600;
@@ -98,7 +102,7 @@
 }
 
 .planos__card__price{
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 600;
 }
 
