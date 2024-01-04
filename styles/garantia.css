@@ -10,26 +10,26 @@
 }
 
 .garantia__img{
-    width: 250px;
+    width: 15.6em;
 }
 
 .garantia__destaque{
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 8px;
 }
 
 .garantia__title{
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 600;
 }
 
 .garantia__text{
-    font-size: 13px;
+    font-size: 0.81em;
 }
 
 .garantia__button{
     background: var(--button-gradiente);
-    width: 250px;
+    width: 15.62em;
     padding: 1em 0.5em;
     border-radius: 5px;
     font-weight: 500;

@@ -10,24 +10,24 @@
 }
 
 .premios__destaque{
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 5px;
 }
 
 .premios__title{
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
 .premios__text{
-    font-size: 12px;
+    font-size: 0.75em;
     letter-spacing: 1px;
 }
 
 .premios__img{
-    border-radius: 10px;
-    width: 270px;
+    border-radius: 0.62em;
+    width: 16.8em;
 }
 
 .premios__button{

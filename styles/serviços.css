@@ -16,7 +16,7 @@
 
 .serviços__text{
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 600;
     margin: 0 1.5em 1em 1.5em;
 }
@@ -29,19 +29,19 @@
 
 .card{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.62em;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.083);
     padding: 3em 1.5em;
     margin: 0.5em;
     display: flex;
     flex-direction: column;
     gap: 1em;
-    width: 280px;
-    height: 350px;
+    width: 17.5em;
+    height: 21.8em;
 }
 
 .card__icon{
-    width: 40px;
+    width: 2.5em;
 }
 
 .card__title{
@@ -50,7 +50,7 @@
 }
 
 .card__text{
-    font-size: 14px;
+    font-size: 0.81em;
     color: rgba(0, 0, 0, 0.616);
 }
 

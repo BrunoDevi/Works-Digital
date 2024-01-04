@@ -10,17 +10,17 @@
 }
 
 .product__destaque{
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 5px;
 }
 
 .product__title{
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
 .product__text{
-    font-size: 14px;
+    font-size: 0.87em;
     letter-spacing: 1px;
     padding-bottom: 2em;
 }
@@ -34,13 +34,13 @@
 .swiper__container{
     background-color: var(--cor-Fundo);
     padding: 0.8em 0.8em 0 0.8em;
-    border-radius: 10px;
+    border-radius: 0.62em;
     cursor:grab;
 }
 
 .swiper{
     background-color: var(--cor-Fundo);
-    width: 280px;
+    width: 17.5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,11 +50,11 @@
     margin-bottom: 1.5em;
     width: 100%; /* Garante que a imagem não ultrapasse a largura do slide */
     max-height: 100%; /* Garante que a imagem não ultrapasse a altura do slide */
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .product__desktop__title, .product__mobile__title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 600;
     letter-spacing: 2px;
     padding-bottom: 0.7em;

@@ -10,23 +10,23 @@
 }
 
 .banner2__destaque{
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 5px;
 }
 
 .banner2__title{
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
 .banner2__text{
-    font-size: 12px;
+    font-size: 0.75em;
     letter-spacing: 1px;
 }
 
 .banner2__img{
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .banner2__button{

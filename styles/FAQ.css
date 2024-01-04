@@ -17,7 +17,7 @@
 }
 
 .FAQ__title{
-    font-size: 38px;
+    font-size: 2.37em;
     font-weight: 600;
 }
 
@@ -43,7 +43,7 @@
     gap: 1em;
     background-color: var(--cor-Fundo);
     padding: 0.8em;
-    border-radius: 10px;
+    border-radius: 0.62em;
 }
 
 .FAQ__card__pergunta{
@@ -53,10 +53,10 @@
 }
 
 .arrow_img{
-    width: 20px;
+    width: 1.25em;
     transform: scaleY(-1);
 }
 
 .FAQ__card__resposta{
-    line-height: 20px;
+    line-height: 1.25em;
 }

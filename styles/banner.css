@@ -11,27 +11,27 @@
 }
 
 .banner__img{
-    width: 120px;
+    width: 7.5em;
 }
 
 .banner__video{
-    width: 290px;
-    border-radius: 10px;
+    width: 18.1em;
+    border-radius: 0.62em;
     z-index: 0;
 }
 
 .banner__title{
-    font-size: 22px;
+    font-size: 1.37em;
     font-weight: 500;
 }
 
 .banner__text{
-    font-size: 10px;
+    font-size: 0.62em;
     letter-spacing: 1px;
 }
 
 .banner__button{
-    font-size: 14px;
+    font-size: 0.87em;
     font-weight: 500;
     background: var(--button-gradiente);
     padding: 1em 1.5em;
