@@ -31,11 +31,18 @@
 }
 
 .banner__button{
-    font-size: 0.87em;
+    font-size: 1em;
     font-weight: 500;
+    font-family: var(--font-Secundaria);
     background: var(--button-gradiente);
-    padding: 1em 1.5em;
-    border-radius: 5px;
+    padding: 0.5em 0.5em;
+    border-radius: 10px;
     cursor: pointer;
     animation: pulse 1s infinite;
+}
+
+.texto_destaque_banner{
+    background: var(--button-gradiente); /* Cores do gradiente */
+    -webkit-background-clip: text;
+    color: transparent;
 }

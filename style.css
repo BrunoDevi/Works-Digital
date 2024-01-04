@@ -1,7 +1,7 @@
 @import url('/styles/header.css');
 @import url('/styles/banner.css');
 @import url('/styles/serviços.css');
-@import url('/styles/banner2.css');
+@import url('/styles/cursos.css');
 @import url('/styles/banner3.css');
 @import url('/styles/banner4.css');
 @import url('/styles/banner5.css');
@@ -43,6 +43,7 @@
     --cor-gradiente: linear-gradient(90deg, rgba(221,38,128,1) 0%, rgba(116,79,158,1) 100%);
     --button-gradiente: linear-gradient(90deg, rgba(208,47,142,1) 0%, rgba(32,167,171,1) 100%);
     --font-Principal: 'Poppins', sans-serif;
+    --font-Secundaria: 'Fjalla One', sans-serif;
     --cinza: #A7A7A7;
 }
 

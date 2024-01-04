@@ -44,6 +44,7 @@
     background-color: var(--cor-Fundo);
     padding: 0.8em;
     border-radius: 0.62em;
+    width: 300px;
 }
 
 .FAQ__card__pergunta{
@@ -59,4 +60,18 @@
 
 .FAQ__card__resposta{
     line-height: 1.25em;
+}
+
+
+.FAQ__card__container--14 .FAQ__card__pergunta{
+    gap: 7em;
+}
+.FAQ__card__container--19 .FAQ__card__pergunta{
+    gap: 7em;
+}
+.FAQ__card__container--36 .FAQ__card__pergunta{
+    gap: 7em;
+}
+.FAQ__card__container--42 .FAQ__card__pergunta{
+    gap: 7em;
 }

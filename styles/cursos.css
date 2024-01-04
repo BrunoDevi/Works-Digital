@@ -1,4 +1,4 @@
-.banner2{
+.cursos{
     background-color: white;
     padding: 2.5em 1em;
     display: flex;
@@ -9,27 +9,27 @@
     gap: 1em;
 }
 
-.banner2__destaque{
+.cursos__destaque{
     font-size: 1em;
     letter-spacing: 5px;
 }
 
-.banner2__title{
+.cursos__title{
     text-align: center;
     font-size: 1.5em;
     font-weight: 600;
 }
 
-.banner2__text{
+.cursos__text{
     font-size: 0.75em;
     letter-spacing: 1px;
 }
 
-.banner2__img{
+.cursos__img{
     border-radius: 0.62em;
 }
 
-.banner2__button{
+.cursos__button{
     background: var(--button-gradiente);
     color: white;
     padding: 0.8em 2em;
