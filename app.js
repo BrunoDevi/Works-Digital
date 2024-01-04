@@ -2,12 +2,6 @@
 document.querySelector('.menu-button').addEventListener('click', () => { 
     var menu = document.querySelector('.menu');
     menu.classList.toggle('open-menu');
-
-    window.addEventListener('scroll', () =>{
-        if (window.scrollY > window.innerHeight / 4) {
-            menu.classList.add('open-menu');
-        }
-    })
 })
 //MENU TAB - end
 
