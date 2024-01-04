@@ -90,3 +90,24 @@ function displayTime(){ // Mostra o contador na tela
 
 displayTime(); //mantem o contador em display na tela
 //CONTADOR - end
+
+//FAQ config - start
+const cardList = document.querySelectorAll('.FAQ__card__container')
+
+for(let i = 0; i < cardList.length; i++){
+    cardList[i].onclick = () => {
+        let card = document.querySelector(`.FAQ__card__container--${i}`);
+        let resposta = card.querySelector('.FAQ__card__resposta');
+        let arrow = card.querySelector('.arrow_img');
+
+        resposta.classList.toggle('hide');
+
+        if(resposta.classList.contains('hide')){
+            arrow.style.transform = 'scaleY(-1)'
+        }else{
+            arrow.style.transform = 'scaleY(1)'
+        }
+
+    }
+}
+//FAQ config - end

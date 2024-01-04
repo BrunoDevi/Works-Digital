@@ -11,6 +11,7 @@
 @import url('/styles/garantia.css');
 @import url('/styles/funcionalidade.css');
 @import url('/styles/referencias.css');
+@import url('/styles/FAQ.css');
 
 :root{
     --cor-Primaria: #3DB1AE;
@@ -19,6 +20,7 @@
     --cor-gradiente: linear-gradient(90deg, rgba(221,38,128,1) 0%, rgba(116,79,158,1) 100%);
     --button-gradiente: linear-gradient(90deg, rgba(208,47,142,1) 0%, rgba(32,167,171,1) 100%);
     --font-Principal: 'Poppins', sans-serif;
+    --cinza: #A7A7A7;
 }
 
 body{
@@ -47,6 +49,10 @@ body{
 .texto_negrito{
     color: var(--cor-Fundo);
     font-weight: 600;
+}
+
+.hide{
+    display: none;
 }
 
 .botao-topo {

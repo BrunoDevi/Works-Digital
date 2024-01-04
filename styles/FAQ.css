@@ -1,0 +1,62 @@
+.FAQ{
+    background-color: black;
+    padding: 1em 1em 5em 1em;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    color: var(--cinza);
+}
+
+.FAQ__text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.FAQ__title{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.FAQ__paragrafo{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.FAQ__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-align: start;
+}
+
+.FAQ__card__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--cor-Fundo);
+    padding: 0.8em;
+    border-radius: 10px;
+}
+
+.FAQ__card__pergunta{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.arrow_img{
+    width: 20px;
+    transform: scaleY(-1);
+}
+
+.FAQ__card__resposta{
+    line-height: 20px;
+}

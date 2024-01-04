@@ -1,5 +1,5 @@
 .referencias{
-    background-color: var(--cor-Fundo);
+    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -33,5 +33,4 @@
     border-radius: 5px;
     font-weight: 500;
     width: 250px;
-    font-size: 14px;
 }
