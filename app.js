@@ -5,7 +5,7 @@ document.querySelector('.menu-button').addEventListener('click', () => {
 
     window.addEventListener('scroll', () =>{
         if (window.scrollY > window.innerHeight / 4) {
-            menu.classList.remove('open-menu');
+            menu.classList.add('open-menu');
         }
     })
 })
