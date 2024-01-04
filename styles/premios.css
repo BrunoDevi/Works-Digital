@@ -1,0 +1,39 @@
+.premios{
+    background-color: white;
+    padding: 2.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.premios__destaque{
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.premios__title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.premios__text{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.premios__img{
+    border-radius: 10px;
+    width: 270px;
+}
+
+.premios__button{
+    background: var(--button-gradiente);
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    font-weight: 500;
+}

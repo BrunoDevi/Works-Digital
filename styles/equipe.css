@@ -1,0 +1,39 @@
+.equipe{
+    background-color: white;
+    padding: 2.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.equipe__destaque{
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.equipe__title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.equipe__text{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.equipe__img{
+    border-radius: 10px;
+    width: 270px;
+}
+
+.equipe__button{
+    background: var(--button-gradiente);
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    font-weight: 500;
+}
