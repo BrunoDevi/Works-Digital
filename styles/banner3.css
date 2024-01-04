@@ -29,14 +29,14 @@
 }
 
 .banner3__button{
+    width: 200px;
     font-size: 1.5em;
     font-weight: 500;
     font-family: var(--font-Secundaria);
     background: var(--button-gradiente);
-    padding: 0.5em 0.5em;
+    padding: 0.3em;
     border-radius: 10px;
     cursor: pointer;
     animation: pulse 1s infinite;
     color: white;
-    margin-bottom: 1em;
 }
