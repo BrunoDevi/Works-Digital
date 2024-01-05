@@ -1,4 +1,4 @@
-.banner6{
+.cronometro{
     background-color: white;
     padding: 3em 1.5em;
     text-align: center;
@@ -9,33 +9,29 @@
     gap: 1em;
 }
 
-.banner6__destaque{
+.cronometro__destaque{
     letter-spacing: 5px;
 }
 
-.CA{
-    font-size: 18px;
-}
-
-.banner6__text{
+.cronometro__text{
     font-size: 0.87em;
 }
 
-.banner6__subtitle{
+.cronometro__subtitle{
     font-size: 1.3em;
     font-weight:600;
 }
 
-.banner6__subtitle2{
+.cronometro__subtitle2{
     font-size: 1.3em;
     font-weight:600;
 }
 
-.banner6__subtitle3{
+.cronometro__subtitle3{
     font-size: 0.75em;
 }
 
-.banner6__button{
+.cronometro__button{
     font-size: 1.5em;
     font-weight: 500;
     font-family: var(--font-Secundaria);
@@ -48,7 +44,7 @@
     margin-bottom: 1em;
 }
 
-.banner6__telaContador{
+.cronometro__telaContador{
     font-size: 2.5em;
     font-weight: 700;
 }

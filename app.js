@@ -62,7 +62,7 @@ const video = document.querySelector('.banner__video');
 //VIDEO SETTINGS - end
 
 //CONTADOR - start
-const telaDeTempo = document.querySelector('.banner6__telaContador');
+const telaDeTempo = document.querySelector('.cronometro__telaContador');
 let contador = 22320 //tempo em segundos
 
 const contagemRegresiva = ()=>{

@@ -4,7 +4,7 @@
 @import url('/styles/cursos.css');
 @import url('/styles/Discord.css');
 @import url('/styles/product.css');
-@import url('/styles/banner6.css');
+@import url('/styles/cronometro.css');
 @import url('/styles/equipe.css');
 @import url('/styles/premios.css');
 @import url('/styles/planos.css');
@@ -78,6 +78,10 @@ main{
 .texto_negrito{
     color: var(--cor-Fundo);
     font-weight: 600;
+}
+
+.CA{
+    font-size: 18px;
 }
 
 .hide{
