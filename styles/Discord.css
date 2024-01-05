@@ -1,4 +1,4 @@
-.banner4{
+.Discord{
     background-color: white;
     padding: 2.5em 1em;
     display: flex;
@@ -9,27 +9,27 @@
     gap: 1em;
 }
 
-.banner4__destaque{
+.Discord__destaque{
     font-size: 1em;
     letter-spacing: 5px;
 }
 
-.banner4__title{
+.Discord__title{
     text-align: center;
     font-size: 1.5em;
     font-weight: 600;
 }
 
-.banner4__text{
+.Discord__text{
     font-size: 0.75em;
     letter-spacing: 1px;
 }
 
-.banner4__img{
+.Discord__img{
     border-radius: 0.62em;
 }
 
-.banner4__button{
+.Discord__button{
     font-size: 1.5em;
     font-weight: 500;
     font-family: var(--font-Secundaria);
