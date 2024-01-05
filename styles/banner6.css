@@ -11,6 +11,10 @@
 
 .banner6__destaque{
     letter-spacing: 5px;
+    background: var(--button-gradiente); /* Cores do gradiente */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
 }
 
 .banner6__text{

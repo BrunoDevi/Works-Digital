@@ -71,7 +71,10 @@ main{
 }
 
 .texto_destaque{
-    color: var(--cor-Primaria);
+    background: var(--button-gradiente); /* Cores do gradiente */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
 }
 
 .texto_negrito{
@@ -100,7 +103,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     z-index: 10000;

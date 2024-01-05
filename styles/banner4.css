@@ -12,6 +12,10 @@
 .banner4__destaque{
     font-size: 1em;
     letter-spacing: 5px;
+    background: var(--button-gradiente); /* Cores do gradiente */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
 }
 
 .banner4__title{

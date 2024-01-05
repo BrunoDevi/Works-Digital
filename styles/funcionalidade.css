@@ -17,6 +17,10 @@
 .funcionalidade__destaque{
     text-align: center;
     letter-spacing: 8px;
+    background: var(--button-gradiente); /* Cores do gradiente */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
 }
 
 .funcionalidade__title{
