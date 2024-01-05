@@ -60,7 +60,7 @@
     font-family: var(--font-Secundaria);
     background: var(--button-gradiente);
     padding: 0.5em 0.5em;
-    border-radius: 10px;
+    border-radius: 18px;
     cursor: pointer;
     animation: pulse 1s infinite;
     color: white;
