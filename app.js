@@ -5,6 +5,17 @@ document.querySelector('.menu-button').addEventListener('click', () => {
 })
 //MENU TAB - end
 
+//MENU Function - start
+function scrollToSection(id){
+    let section = document.getElementById(id);
+
+    window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth'
+    })
+}
+//MENU Function - end
+
 //BOTÃO 'TOPO' - start
 function Top() { // adiciona a funcão de voltar ao topo da pagina
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -105,14 +116,3 @@ for(let i = 0; i < cardList.length; i++){
     }
 }
 //FAQ config - end
-
-//MENU config-start
-function scrollToSection(id){
-    let section = document.getElementById(id);
-
-    window.scrollTo({
-        top: section.offsetTop,
-        behavior: 'smooth'
-    })
-}
-//MENU config - end

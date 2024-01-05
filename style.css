@@ -64,10 +64,6 @@ body{
     z-index: 999;
 }
 
-main{
-    z-index: 99;
-}
-
 .texto_destaque{
     background: var(--button-gradiente); /* Cores do gradiente */
     -webkit-background-clip: text;

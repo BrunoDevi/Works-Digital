@@ -1,5 +1,5 @@
 .premiaçoes_body{
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     font-family: var(--font-Principal);
     box-sizing: border-box;
     color: var(--cor-Fundo);
@@ -12,10 +12,16 @@
 
 .premiaçoes_main{
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
 }
 
 .premiaçoes__title{
-    font-size: 1.2em;
+    color: #1c293b;
+    font-size: 25.2px;
+    line-height: 32px;
     font-weight: 600;
 }
 
@@ -26,3 +32,46 @@
     margin: 1em 0;
 }
 
+.premiaçoes__topic__title{
+    font-size: 1.3em;
+    font-weight: 600;
+    border-left: 4px solid black;
+    padding-left: 5px;
+}
+
+.premiaçoes__topic__text{
+    font-size: 1em;
+}
+
+.premiaçoes__topic__premios{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.premiaçoes__card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 1em 0;
+}
+
+.premiaçoes__card__title{
+    font-size: 1.3em;
+}
+
+.premiaçoes__card__subtitle{
+    font-size: 0.8em;
+}
+
+.premiaçoes__card__img{
+    width: 200px;
+    align-self: center;
+    margin: 0.8em  0;
+}
+
+.premiaçoes__card__text{
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: center;
+}
