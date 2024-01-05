@@ -1,0 +1,28 @@
+.premiaçoes_body{
+    background-color: white;
+    font-family: var(--font-Principal);
+    box-sizing: border-box;
+    color: var(--cor-Fundo);
+}
+
+.premiaçoes_header{
+    display: flex;
+    justify-content: center;
+}
+
+.premiaçoes_main{
+    padding: 1em;
+}
+
+.premiaçoes__title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.premiaçoes__separator{
+    width: 100%;
+    border: 1px solid rgba(173, 173, 173, 0.616);
+    border-radius: 50%;
+    margin: 1em 0;
+}
+

@@ -21,7 +21,9 @@
         <p>Oferta Imperdivel!</p>
     </div>
     <header>
-        <img loading="lazy" class="header__logo" src="/assets/img/TEXT-LOGO.png" alt="LOGO">
+        <a href="index.html">
+            <img loading="lazy" class="header__logo" src="/assets/img/TEXT-LOGO.png" alt="LOGO">
+        </a>
         <section class="header__menu">
             <button class="menu-button"><img loading="lazy" src="/assets/img/Menu.png" alt="Menu"></button>
         </section>
@@ -32,10 +34,12 @@
             <li><a class="menu__link" onclick="scrollToSection('product')">Portfolio</a></li>
             <li><a class="menu__link" onclick="scrollToSection('planos')">Planos</a></li>
             <li><a class="menu__link" onclick="scrollToSection('garantia')">Garantia</a></li>
-            <li><a class="menu__link" onclick="scrollToSection('funcionalidade')">Oque oferecemos?</a></li>
+            <li><a class="menu__link" onclick="scrollToSection('premios')">Premiação</a></li>
+            <li><a class="menu__link" onclick="scrollToSection('referencias')">Referencias</a></li>
             <li><a class="menu__link" onclick="scrollToSection('FAQ')">Dúvidas</a></li>
         </ul>
     </nav>
+
     <main>
         <section class="banner">
             <img loading="lazy" class="banner__img" src="/assets/img/TEXT-LOGO.png" alt="LOGO">
@@ -81,17 +85,11 @@
         <section class="cursos">
             <p class=" cursos__destaque texto_destaque">CURSOS</p>
             <h2 class="cursos__title">Se profisionalize com nossos cursos</h2>
-            <p class="cursos__text">Cursos do básico até o avançado com conteúdos atualizados.</p>
-            <img loading="lazy" class="cursos__img" src="/assets/img/CURSO-DE-DROP.png" alt="banner img">
-            <a class="cursos__button" href="#">QUERO TER ACESSO</a>
-        </section>
-        <section class="banner3">
-            <p class="banner3__destaque texto_destaque">Curso Completo De</p>
-            <h2 class="banner3__title">TRÁFEGO PAGO E <br> DROPSHIPPING</h2>
-            <p class="banner3__text">Além da <span class="texto_destaque CA">WORKS</span> montar toda a sua estrutura
+            <p class="cursos__text">Além da <span class="texto_destaque CA">WORKS</span> montar toda a sua estrutura
                 para
                 começar a vender, você vai receber totalmente grátis dois dos melhores cursos do mercado.</p>
-            <button class=" banner3__button" href="#">QUERO TER ACESSO</button>
+            <img loading="lazy" class="cursos__img" src="/assets/img/CURSO-DE-DROP.png" alt="banner img">
+            <a class="cursos__button" onclick="scrollToSection('planos')">QUERO TER ACESSO</a>
         </section>
         <section class="banner4">
             <p class="banner4__destaque texto_destaque">ACESSO VITÁLICIO</p>
@@ -100,15 +98,6 @@
                 têm o mesmo objetivo: Voar neste mercado! A regra da comunidade é: um ajuda o outro!</p>
             <img loading="lazy" class="banner4__img" src="/assets/img/imagem_exemplo.jpg" alt="banner img">
             <a class="banner4__button" href="#">QUERO TER ACESSO</a>
-        </section>
-        <section class="banner5">
-            <p class="banner5__destaque texto_destaque">BENEFÍCIO EXCLUSIVO</p>
-            <h2 class="banner5__title">Você ganha acesso á uma ferramenta exclusiva</h2>
-            <p class="banner5__text">Você receberá todos os meses 20 produtos nacionais e internacionais, já com
-                fornecedores, faturamento, preço de compra, preço de venda recomendado, margem de lucro e muito mais!
-            </p>
-            <img loading="lazy" class="banner5__img" src="/assets/img/imagem_exemplo.jpg" alt="banner img">
-            <a class="banner5__button" href="#">QUERO TER ACESSO</a>
         </section>
         <section class="product" id="product">
             <p class="product__destaque texto_destaque">Loja profissional</p>
@@ -178,16 +167,16 @@
                 propósito é auxiliar na comunicação clara e impactante, capturando a atenção do seu público e mantendo o
                 envolvimento.</p>
             <img loading="lazy" class="equipe__img" src="/assets/img/EQUIPE.png" alt="banner img">
-            <a class="equipe__button" href="#">QUERO TER ACESSO</a>
+            <a class="equipe__button" href="https://pay.kiwify.com.br/ZYkt7Mr">FALE CONOSCO</a>
         </section>
-        <section class="premios">
+        <section class="premios" id="premios">
             <p class="premios__destaque texto_destaque">PREMIAÇÕES</p>
             <h2 class="premios__title">Seja recompensado por seu esforço!</h2>
             <p class="premios__text">Celebramos suas conquistas! Alcançar metas de vendas é motivo de orgulho. Nossa
                 equipe está aqui para reconhecer e premiar seu esforço. Vejá os premios que disponibilizamos a nossos
                 colaboradores.</p>
             <img loading="lazy" class="premios__img" src="/assets/img/PREMIACOES.png" alt="banner img">
-            <a class="premios__button" href="#">QUERO TER ACESSO</a>
+            <a class="premios__button" href="premiações.html">SAIBA MAIS</a>
         </section>
         <section class="planos" id="planos">
             <div class="planos__title">
@@ -412,46 +401,11 @@
             <img loading="lazy" class="garantia__img" src="/assets/img/garantia-img.png" alt="#">
             <h1 class="garantia__title texto_destaque">Dias de garantia</h1>
             <p class="garantia__text">Temos orgulho em sustentar a taxa de 99,3% de aprovações e satisfação de nossos
-                clientes. Mas em caso de arrependimento, insatisfação ou até mesmo não obter nenhuma venda, devolvemos o
+                clientes. Mas em caso de insatisfação devolvemos o
                 seu dinheiro imediatamente.</p>
             <a class="garantia__button" href="">GARANTIR MINHA VAGA</a>
         </section>
-        <section class="funcionalidade" id="funcionalidade">
-            <div class="funcionalidade__separador"></div>
-            <p class="funcionalidade__destaque texto_destaque">Você não irá encontrar em <br> outro lugar</p>
-            <h1 class="funcionalidade__title">Não te entregamos só uma loja, te entregamos uma marca completa</h1>
-            <section class="funcionalidade__cards">
-                <div class="funcionalidade__card">
-                    <img loading="lazy" class="funcionalidade__card__icon" src="/assets/img/icons8-comunidade-50.png"
-                        alt="">
-                    <p class="funcionalidade__card__title texto_destaque">Acesso a uma aréa de membros</p>
-                    <p class="funcionalidade__card__text">Após fechar sua loja de dropshipping conosco, você receberá
-                        acesso a uma área
-                        de membros com aulas do básico ao avançado de dropshipping e tráfego pago. Também terá acesso a
-                        aulas sobre Branding de marca, LTV, consolidando seu e-commerce no mercado.</p>
-                </div>
-                <div class="funcionalidade__card">
-                    <img loading="lazy" class="funcionalidade__card__icon" src="/assets/img/icons8-professor-50.png"
-                        alt="">
-                    <p class="funcionalidade__card__title texto_destaque">Mentorias semanais</p>
-                    <p class="funcionalidade__card__text">Mentoria semanal todas as quintas das 18:30h às 20:30h para
-                        clientes da Benuv.
-                        Preparamos de forma exclusiva e didática um conteúdo que te levará do básico ao avançado, tudo
-                        isso ao vivo onde você poderá até mesmo tirar suas dúvidas.</p>
-                </div>
-                <div class="funcionalidade__card">
-                    <img loading="lazy" class="funcionalidade__card__icon" src="/assets/img/icons8-pacote-64.png"
-                        alt="">
-                    <p class="funcionalidade__card__title texto_destaque">50 produtos validados todos os meses</p>
-                    <p class="funcionalidade__card__text">Você terá acesso a uma ferramenta que irá te entregar todos os
-                        meses até 50
-                        produtos validados nacionais e internacionais, com fornecedores, faturamento, preço de compra,
-                        preço de venda recomendado, margem de lucro e muito mais!</p>
-                </div>
-            </section>
-            <a class="funcionalidade__button" href="#">GARANTIR MINHA VAGA</a>
-        </section>
-        <section class="referencias">
+        <section class="referencias" id="referencias">
             <h1 class="referencias__title">Oque os clientes da <span class="texto_destaque">WORKS DIGITAL</span> tem a
                 dizer:</h1>
             <section class="referencias__cards">
@@ -478,8 +432,8 @@
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
                     </div>
                     <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Você precisa investir na loja, onde o investimento é R$197,90 e
-                            você ganha todos os bônus;</p>
+                        <p class="card__resposta__text">Você precisa investir na loja, onde o investimento será da sua
+                            escolha,tendo 3 Planos: Iniciante, Intermediario e Branding.</p>
                         <br>
                         <p class="card__resposta__text">Domínio (não é obrigatório, mas é essencial para deixar sua loja
                             profissional): Cerca de
@@ -496,73 +450,16 @@
                 </div>
                 <div class="FAQ__card__container FAQ__card__container--1">
                     <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Os 60 produtos que vocês falam, seriam produtos de vocês ou
-                            produto meu que eu já vendo?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Os 60 produtos validados que oferecemos para nossos clientes,
-                            são produtos que estão vendendo absolutamente todos os dias no mercado de dropshipping.</p>
-                        <br>
-                        <p class="card__resposta__text">Por isso, nós temos uma equipe especialista que vai fazer esta
-                            mineração dos produtos validados para colocarmos diretamente na sua Loja.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--2">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Gostaria de saber como funciona para realização do site, e qual
-                            valor?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Nós entregamos um site em altíssimo padrão de performance, onde
-                            você seleciona tudo que vai desejar como: banners, logomarca ou pode também deixar tudo por
-                            conta dos nossos técnicos especialistas. Atualmente estamos com uma promoção de 7.800,00 por
-                            197,90. </p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--3">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Por quanto tempo tenho suporte? Tenho suporte após a entrega da
-                            loja?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text"> Você terá total suporte dentro da entrega e após a entrega da
-                            sua loja! O suporte é feito sem tempo determinado, ou seja, estaremos disponíveis para tirar
-                            suas dúvidas e lhe ajudar a escalar com a plataforma.
-                            Então, você receberá suporte através das nossas mentorias ao vivo juntamente com os CEO’s
-                            Tiago e Luís e através do nosso curso onde te ensina desde o básico até o avançado,
-                            juntamente com o suporte exclusivo à sua disposição.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--4">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Como é feita a escolha dos produtos?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Os produtos são todos escolhidos por nossa equipe especialista,
-                            produtos que vendem e possam te fazer ter lucro, ou seja, todos eles, nós escolhemos a dedo
-                            com todas estratégias para te entregar um produto validado.Então, você receberá suporte
-                            através das nossas mentorias ao vivo juntamente com os CEO’s Tiago e Luís e através do nosso
-                            curso onde te ensina desde o básico até o avançado, juntamente com o suporte exclusivo à sua
-                            disposição.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--5">
-                    <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Sou responsável pelas vendas e o fornecedor o envio?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
                     </div>
                     <div class="FAQ__card__resposta hide">
                         <p class="card__resposta__text">Isso mesmo, a única coisa que você vai precisar se preocupar, é
                             vender! E para isso, te entregamos um curso completo do básico ao avançado para te ajudar em
-                            todo processo de vendas, juntamente com as nossas mentorias ao vivo, que estarão os nossos
-                            sócios e proprietário à disposição mostrando ao vivo o processo na prática.</p>
+                            todo processo de vendas.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--6">
+                <div class="FAQ__card__container FAQ__card__container--2">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Com relação aos produtos já colocados na loja..eu tenho
                             possibilidade de tirá-los? Eu mesmo posso acrescentar novos produtos?</p>
@@ -574,7 +471,7 @@
                             mostrar como fazer este cadastro.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--7">
+                <div class="FAQ__card__container FAQ__card__container--3">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">
                         <p class="card__pergunta__text">Vocês escolhem o nome? Logo? Como funciona essa parte?</p>
@@ -587,7 +484,7 @@
                             Cores. Assim, iremos fazer um site de acordo com o que você pretender.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--8">
+                <div class="FAQ__card__container FAQ__card__container--4">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Qual plataforma? Custo mensal?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -599,7 +496,7 @@
                             apenas 1 dólar nos 3 primeiros meses.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--9">
+                <div class="FAQ__card__container FAQ__card__container--5">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Quanto é necessário investir em tráfego pago?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -610,23 +507,7 @@
                             passamos aos nossos clientes.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--10">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Qual Gateway e Checkout usam na loja?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">O gateway de pagamento que nós recomendamos é o Mercado Pago,
-                            para quem está iniciando nesta atividade, pois você irá receber o pagamento de suas vendas
-                            de imediato após o cliente confirmar a compra com você. Caso você tenha interesse em fazer
-                            um investimento a mais, nós lhe recomendamos a plataforma da Appmax, que atualmente é o
-                            melhor gateway de pagamento, contando com 97% de aprovação dos seus pedidos.</p>
-                        <br>
-                        <p class="card__resposta__text">O checkout transparente que recomendamos é a Yampi, que tem um
-                            checkout de alta conversão e que vai facilitar ainda mais o seu processo de escala.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--11">
+                <div class="FAQ__card__container FAQ__card__container--6">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Está incluso domínio e hospedagem?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -637,7 +518,7 @@
                             necessita apenas o domínio, a plataforma da Shopify já é a hospedagem da sua loja.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--12">
+                <div class="FAQ__card__container FAQ__card__container--7">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">São fornecedores nacionais ou usam somente internacionais?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -648,18 +529,7 @@
                             Assim seu lucro fica maior.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--13">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Fazem integrações com o marketplace?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Não fazemos, mas você mesmo pode fazer esse tipo de integração,
-                            onde existem três plataformas com integração direta com a Shopify: Shopee, Amazon, Mercado
-                            Livre.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--14">
+                <div class="FAQ__card__container FAQ__card__container--8">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Preciso ter CNPJ?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -671,7 +541,7 @@
                             regularizar a parte contábil do seu site.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--15">
+                <div class="FAQ__card__container FAQ__card__container--9">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Já está incluso os comentários nos produtos?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -681,7 +551,7 @@
                             avaliações nos seus produtos, onde também vai transmitir mais credibilidade ao seu site.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--16">
+                <div class="FAQ__card__container FAQ__card__container--10">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Posso pagar metade na entrega e metade depois que receber a
                             loja?</p>
@@ -693,17 +563,7 @@
                             seu site, nós te enviamos para sua aprovação!</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--17">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Os produtos já irão com os fornecedores?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Todos os 80 produtos irão conter os fornecedores através de uma
-                            lista que liberamos após a entrega do seu site.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--18">
+                <div class="FAQ__card__container FAQ__card__container--11">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Esse site que vocês estão vendendo é na Shopify? É de template
                             gratuito lá, ou vocês tem um específico?</p>
@@ -717,7 +577,7 @@
                             economiza todo esse valor conosco.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--19">
+                <div class="FAQ__card__container FAQ__card__container--12">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Posso iniciar com CPF?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -727,7 +587,7 @@
                             após estar vendendo constantemente, migrar para um CNPJ.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--20">
+                <div class="FAQ__card__container FAQ__card__container--13">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Existe algum pacote de vocês de produtos mensais?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -737,7 +597,7 @@
                             você pode solicitar ao suporte e verificar os valores.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--21">
+                <div class="FAQ__card__container FAQ__card__container--14">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Queria saber como funciona a logomarca?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -747,7 +607,7 @@
                             profissionais para você escolher e podermos colocar em sua loja.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--22">
+                <div class="FAQ__card__container FAQ__card__container--15">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Onde posso encontrar fornecedores nacionais?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -759,7 +619,7 @@
                             fornecedores nacionais e com preços a custo de mercado.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--23">
+                <div class="FAQ__card__container FAQ__card__container--16">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Qual a margem de lucro desses produtos?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -769,18 +629,7 @@
                             produto, tornando assim, uma operação saudável e rentável.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--24">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Posso aplicar percentuais de reajustes de valores em massa ou
-                            tem que ser produto por produto ?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Você pode reajustar os valores e percentuais sim, porém, é feito
-                            por produto. É bem fácil e simples, ensinamos no nosso curso.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--25">
+                <div class="FAQ__card__container FAQ__card__container--17">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Gostaria de saber quais são os controles que vocês oferecem com
                             relação aos valores do fornecedor de drop , meu valor e a margem de lucro de cada produto?
@@ -796,7 +645,7 @@
                             lhe enviamos os fornecedores pra você ficar de olho.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--26">
+                <div class="FAQ__card__container FAQ__card__container--18">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Eu fico dependente de vocês após eu receber a loja?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -807,7 +656,7 @@
                             qualquer tipo de configuração/inclusões no seu site.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--27">
+                <div class="FAQ__card__container FAQ__card__container--19">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Queria saber se após montar a loja eu mesmo terei que garimpar
                             sempre a procura de novos produtos. Também se eu sempre terei que criar as copy’s dos
@@ -816,11 +665,10 @@
                     </div>
                     <div class="FAQ__card__resposta hide">
                         <p class="card__resposta__text">Sim! Porém até lá, você irá aprender a como fazer a mineração de
-                            procurar estes produtos específicos para a sua Loja. Hoje contamos com uma parceria com a
-                            Adminer que auxilia também nessa parte de minerações de produtos validados.</p>
+                            procurar estes produtos específicos para a sua Loja.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--28">
+                <div class="FAQ__card__container FAQ__card__container--20">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Poderiam adicionar outros temas?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -829,42 +677,7 @@
                         <p class="card__resposta__text">Claro, além do tema Warehouse, temos o Dropmeta e tema Ella.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--29">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Vocês podem adicionar produtos nacionais em meu site? Não
-                            gostaria de começar com Aliexpress.</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Não necessariamente seria do Aliexpress, podemos colocar
-                            fornecedores nacionais no seu site, contando com a plataforma Fforder, que temos esta
-                            parceria exclusiva com a mesma.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--30">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Vocês montam lojas para vender em outros países?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Montamos lojas para vender em todo o mundo, você só precisa ver
-                            qual meio de pagamento vai disponibilizar para seus clientes e alinhamos as formas aqui com
-                            você.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--31">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Gostaria de uma loja nichada, mas não quero adicionar produtos
-                            por conta no início, vocês adicionaram os 80 produtos do meu nicho?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Claro! Podemos acrescentar os produtos diretamente no seu site,
-                            neste pacote de R$197,90. Você pode escolher 5 categorias, que seriam: Casa, Cozinha e
-                            Jardim, Acessórios e Beleza, Eletrônicos, Infantil e Pets.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--32">
+                <div class="FAQ__card__container FAQ__card__container--21">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Já possuo conta na Shopify e loja pronta, vocês refazem toda ela
                             no seu pacote?</p>
@@ -876,7 +689,7 @@
                             sua própria conta da Shopify.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--33">
+                <div class="FAQ__card__container FAQ__card__container--22">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Estou iniciando uma loja virtual focado em público feminino e
                             gostaria de saber se vocês fazem logo, identidade visual em seu pacote?</p>
@@ -888,7 +701,7 @@
                             melhor experiência possível para você.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--34">
+                <div class="FAQ__card__container FAQ__card__container--23">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Quais nichos de produtos vocês colocam em meu site?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -902,7 +715,7 @@
                             muito maior que uma Loja Nichada.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--35">
+                <div class="FAQ__card__container FAQ__card__container--24">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Posso incluir até quantos produtos na shopify?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -912,7 +725,7 @@
                             você quiser na sua plataforma, sendo assim, podendo colocar inúmeros produtos.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--36">
+                <div class="FAQ__card__container FAQ__card__container--25">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Qual a função do DSERS?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -923,7 +736,7 @@
                             diretamente na sua plataforma.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--37">
+                <div class="FAQ__card__container FAQ__card__container--26">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Tem alguma ferramenta que faz o pagamento ao fornecedor
                             automaticamente?</p>
@@ -936,7 +749,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--38">
+                <div class="FAQ__card__container FAQ__card__container--27">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Não sei nada de dropshipping, qual a possibilidade de fazer no
                             mínimo uns 3 a 4 mil por mês, a partir de quantos meses?</p>
@@ -949,7 +762,7 @@
                             e pelas nossas mentoria também.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--39">
+                <div class="FAQ__card__container FAQ__card__container--28">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Qual capital preciso ter disponível para pagar meus
                             fornecedores?</p>
@@ -961,7 +774,7 @@
                             após a confirmação da compra do seu cliente.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--40">
+                <div class="FAQ__card__container FAQ__card__container--29">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Como funciona o processo de devolução do produto ao meu cliente?
                         </p>
@@ -978,30 +791,19 @@
                             se ele vai querer o reembolso do valor ou um novo produto.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--41">
+                <div class="FAQ__card__container FAQ__card__container--30">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Vocês criam a loja em um nicho específico de minha escolha?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
                     </div>
                     <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Nós fazemos lojas nichadas por R$197,90 dos nossos nichos: Casa,
+                        <p class="card__resposta__text">Nós fazemos lojas nichadas por R$498,90 dos nossos nichos: Casa,
                             cozinha e jardim; Eletrônicos; Infantil; Pets; e Acessórios e Beleza. Lojas que não são dos
-                            nichos acima, se encaixam em super nichadas. Fazemos pelo valor de R$597,90 e você teria que
+                            nichos acima, se encaixam em super nichadas. Fazemos pelo valor de R$997,90 e você teria que
                             nos enviar os links dos produtos.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--42">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">A loja pode ser em inglês?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">Claro, tem a possibilidade de fazermos a sua loja totalmente
-                            traduzida para o inglês. Deixaremos com toda a página traduzida, inclusive toda a Copy,
-                            Página de venda, precificação de cada um dos 80 produtos.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--43">
+                <div class="FAQ__card__container FAQ__card__container--31">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Os produtos que virá na loja já tem fornecedores definidos ou
                             tenho que cadastrar?</p>
@@ -1013,7 +815,7 @@
                             você precisar ter o trabalho de fazer a mineração e validação destes produtos.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--44">
+                <div class="FAQ__card__container FAQ__card__container--32">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Preciso contratar uma empresa para fazer essa hospedagem?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -1023,7 +825,7 @@
                             ele e conectar com a plataforma da Shopify, deixando tudo configurado.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--45">
+                <div class="FAQ__card__container FAQ__card__container--33">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Preciso contratar uma empresa para fazer essa hospedagem?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -1033,7 +835,7 @@
                             ele e conectar com a plataforma da Shopify, deixando tudo configurado.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--46">
+                <div class="FAQ__card__container FAQ__card__container--34">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Referente a uma plataforma que encontrei, dropi, posso conectar
                             ela no shopify para ter acesso a mais fornecedores?</p>
@@ -1044,7 +846,7 @@
                             dando assim, a liberdade de adicionar outros produtos, fornecedores, aplicativos e etc…</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--47">
+                <div class="FAQ__card__container FAQ__card__container--35">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Imposto desses produtos, como é tratado no dropshipping? O
                             produto não é do meu estoque no caso. Nesse cenário eu deveria pagar apenas pelo serviço
@@ -1058,7 +860,7 @@
                             você declarando apenas o que ficou na sua conta desta intermediação.</p>
                     </div>
                 </div>
-                <div class="FAQ__card__container FAQ__card__container--48">
+                <div class="FAQ__card__container FAQ__card__container--36">
                     <div class="FAQ__card__pergunta">
                         <p class="card__pergunta__text">Vocês ensinam a fazer tráfego pago?</p>
                         <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
@@ -1067,57 +869,12 @@
                         <p class="card__resposta__text">Sim! Você receberá como super BÔNUS um curso de Dropshipping
                             completo para aprender tudo sobre a sua loja e como fazer para vender muito com ela.</p>
                         <br>
-                        <p class="card__resposta__text">Onde você terá acesso também ao módulo de Tráfego Pago com
-                            Google Ads e Facebook Ads. </p>
-                        <br>
-                        <p class="card__resposta__text">Esse eu diria ser um dos cursos mais importantes, pois é com
-                            tráfego pago que você vai conseguir vender e aumentar a sua lista de clientes</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--49">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">Caso eu adquira a loja eu tenho acesso a essas lives gravadas ou
-                            as lives só acontecem online mesmo?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">As nossas mentorias acontecem toda terça-feira e quinta-feira
-                            das 19:00 até as 22:00 e apesar de serem on-line, elas ficam gravadas diretamente na área de
-                            membros onde você terá acesso para assistir em outro horário.</p>
-                    </div>
-                </div>
-                <div class="FAQ__card__container FAQ__card__container--50">
-                    <div class="FAQ__card__pergunta">
-                        <p class="card__pergunta__text">*Quais as regras para receber a garantia?</p>
-                        <img class="arrow_img" loading="lazy" src="/assets/img/icons8-arrow.png" alt="#">
-                    </div>
-                    <div class="FAQ__card__resposta hide">
-                        <p class="card__resposta__text">– Estar com a loja aberta (ativa) no shopify no ato da
-                            solicitação da garantia.</p>
-                        <p class="card__resposta__text">– A loja não pode ter sido editada dentro do prazo da garantia
-                            (120 dias após a entrega)</p>
-                        <p class="card__resposta__text">– Ter assistido 100% do CURSO (as aulas gravadas, mentorias
-                            gravadas e ao vivo que nós disponibilizamos dentro da área de membros. Temos o registro de
-                            acompanhamento do curso)</p>
-                        <p class="card__resposta__text">– Ter participado de ABSOLUTAMENTE TODAS as mentorias de terça e
-                            quinta no período de 120 dias; *mentorias são gravadas e temos o registro de presença.</p>
-                        <p class="card__resposta__text">– Responder a um questionário comprovando a aplicação prática de
-                            absolutamente tudo que foi ensinado nas mentorias e curso.</p>
-                        <p class="card__resposta__text">– Após findar os 120 dias após a entrega da sua loja por nossa
-                            equipe, você tem 5 dias corridos para solicitar a recompra da sua loja, caso contrário, você
-                            não terá direito a recompra.</p>
-                        <br>
-                        <p class="card__resposta__text">Obs: Nós confiamos na nossa metodologia, é por isso que estamos
-                            disponibilizando esta garantia de recompra da sua loja por 10x o valor que você pagou pela
-                            loja. Porém, precisamos que você tenha discernimento de entender que se você não aplicar
-                            rigorosamente, minuciosamente, o que nós ensinamos, você não vai ter direito a recompra da
-                            sua loja.
-                            Tudo isso vai ter que ser comprovado para darmos procedimento na recompra da sua loja.</p>
                     </div>
                 </div>
             </section>
         </section>
     </main>
+
     <button class="botao-topo" onclick="Top()"><img loading="lazy" src="/assets/img/pra-cima.png" alt="Subir"></button>
     <script src="app.js"></script>
 </body>

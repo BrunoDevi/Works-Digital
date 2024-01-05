@@ -2,7 +2,6 @@
 @import url('/styles/banner.css');
 @import url('/styles/serviços.css');
 @import url('/styles/cursos.css');
-@import url('/styles/banner3.css');
 @import url('/styles/banner4.css');
 @import url('/styles/banner5.css');
 @import url('/styles/product.css');
@@ -14,6 +13,7 @@
 @import url('/styles/funcionalidade.css');
 @import url('/styles/referencias.css');
 @import url('/styles/FAQ.css');
+@import url('/styles/premiaçao.css');
 
 @keyframes pulse {
     0% { transform: scale(1); }
