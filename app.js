@@ -69,7 +69,7 @@ const swiper = new Swiper('.swiper', {
 
 //VIDEO SETTINGS - start
 const video = document.querySelector('.banner__video');
-//video.play();
+video.play();
 //VIDEO SETTINGS - end
 
 //FAQ config - start
