@@ -117,3 +117,9 @@
     color: white;
     margin-bottom: 1em;
 }
+
+@media screen and (min-width: 1024px){
+    .planos__title{
+        flex-direction: row;
+    }
+}

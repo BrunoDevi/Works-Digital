@@ -23,6 +23,7 @@
     font-size: 25.2px;
     line-height: 32px;
     font-weight: 600;
+    padding-right: 2em;
 }
 
 .premiaçoes__separator{
@@ -74,4 +75,20 @@
     font-weight: 600;
     font-size: 0.9em;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .premiaçoes__topic__premios{
+        text-align: center;
+    }
+    .premiaçoes__card__text{
+        padding: 0 20em;
+    }
+    .premiaçoes__topic__title{
+        text-align: start;
+    }
+    .premiaçoes__title{
+        text-align: center;
+        padding-right: 0em;
+    }
 }

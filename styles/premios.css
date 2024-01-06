@@ -29,6 +29,11 @@
     border-radius: 0.62em;
     width: 19em;
 }
+.premios__img2{
+    border-radius: 0.62em;
+    width: 19em;
+    font-display: none;
+}
 
 .premios__button{
     font-size: 1.5em;
@@ -41,4 +46,40 @@
     animation: pulse 1s infinite;
     color: white;
     margin-bottom: 1em;
+}
+
+.premios-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+@media screen and (min-width: 1024px){
+    .premios{
+        flex-direction: row-reverse;
+        padding: 2em;
+        gap: 2.5em;
+    }
+    .premios__img{
+        display: none;
+    }
+    .premios__img2{
+        display: block;
+        width: 30em;
+        box-shadow: 3px 3px 40px black;
+    }
+    .premios-tab{
+        text-align: start;
+        align-items: flex-start;
+    }
+    .premios__text{
+        font-size: 1em;
+    }
+    .premios__title{
+        text-align: start;
+        font-size: 1.8em;
+    }
 }

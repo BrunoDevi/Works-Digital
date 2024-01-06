@@ -30,6 +30,12 @@
     width: 20em;
 }
 
+.cursos__img2{
+    display: none;
+    border-radius: 0.62em;
+    width: 20em;
+}
+
 .cursos__button{
     color: white;
     font-size: 1.5em;
@@ -40,4 +46,38 @@
     border-radius: 18px;
     cursor: pointer;
     animation: pulse 1s infinite;
+}
+
+.cursos-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+@media screen and (min-width: 1024px){
+    .cursos{
+        flex-direction: row;
+    }
+    .cursos__img{
+        display: none;
+    }
+    .cursos__img2{
+        display: block;
+        width: 32em;
+    }
+    .cursos-tab{
+        padding-left: 2em;
+        text-align: start;
+        align-items: flex-start;
+    }
+    .cursos__text{
+        font-size: 1em;
+    }
+    .cursos__title{
+        text-align: start;
+        font-size: 1.8em;
+    }
 }

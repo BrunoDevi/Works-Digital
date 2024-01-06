@@ -10,6 +10,24 @@
     z-index: 99;
 }
 
+.bannerUP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.bannerDOWN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+}
+
 .banner__img{
     width: 7.5em;
 }
@@ -41,9 +59,29 @@
     animation: pulse 1s infinite;
 }
 
-.texto_destaque_banner{
-    background: var(--button-gradiente); /* Cores do gradiente */
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: 700;
+@media screen and (min-width: 1024px){
+    .banner{
+        flex-direction: row-reverse;
+        padding: 2em 3em;
+        align-items:center;
+        justify-content: flex-end;
+    }
+    .banner__UP{
+        flex-direction:column-reverse ;
+    }
+    .bannerDOWN{
+        text-align: start;
+        align-items: flex-start;
+        gap: 1.5em;
+        padding: 0 3em;
+    }
+    .banner__video{
+        width: 25em;
+    }
+    .banner__title{
+        font-size: 1.7em;
+    }
+    .banner__text{
+        font-size: 0.8em;
+    }
 }

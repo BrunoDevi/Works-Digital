@@ -24,6 +24,16 @@
         <a href="index.html">
             <img loading="lazy" class="header__logo" src="/assets/img/TEXT-LOGO.png" alt="LOGO">
         </a>
+        <section class="line__menu">
+            <ul class="menu__list">
+                <li><a class="menu__link texto_destaque" onclick=" scrollToSection('product')">Portfolio</a></li>
+                <li><a class="menu__link texto_destaque" onclick=" scrollToSection('planos')">Planos</a></li>
+                <li><a class="menu__link texto_destaque" onclick=" scrollToSection('garantia')">Garantia</a></li>
+                <li><a class="menu__link texto_destaque" onclick=" scrollToSection('premios')">Premiação</a></li>
+                <li><a class="menu__link texto_destaque" onclick=" scrollToSection('referencias')">Referencias</a></li>
+                <li><a class="menu__link texto_destaque" onclick=" scrollToSection('FAQ')">Dúvidas</a></li>
+            </ul>
+        </section>
         <section class="header__menu">
             <button class="menu-button"><img loading="lazy" src="/assets/img/Menu.png" alt="Menu"></button>
         </section>
@@ -41,41 +51,53 @@
 
     <main>
         <section class="banner">
-            <img loading="lazy" class="banner__img" src="/assets/img/TEXT-LOGO.png" alt="LOGO">
-            <video loading="lazy" class="banner__video" controls>
-                <source src="/assets/img/PARE DE PERDER TEMPO COM A CRIAÇÃO DA SUA LOJA.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <h1 class="banner__title">Transformando Ideias em Realidade, <span class="texto_destaque_banner">nós damos
-                    Vida
-                    ao seu Negócio Digital</span></h1>
-            <p class="banner__text">Você terá uma loja extremamente profissional totalmente focada no branding
-                capaz de gerar até 4x mais vendas que lojas templates vendidas por R$10, R$49 e R$87.</p>
-            <a onclick="scrollToSection('planos')" class="banner__button">CRIAR MEU NEGÓCIO</a>
+            <section class="bannerUP">
+                <img loading="lazy" class="banner__img" src="/assets/img/TEXT-LOGO.png" alt="LOGO">
+                <video loading="lazy" class="banner__video" controls>
+                    <source src="/assets/img/PARE DE PERDER TEMPO COM A CRIAÇÃO DA SUA LOJA.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <section class="bannerDOWN">
+                <h1 class="banner__title">Transformando Ideias em Realidade, <span class="texto_destaque">nós damos
+                        Vida
+                        ao seu Negócio Digital</span></h1>
+                <p class="banner__text">Você terá uma loja extremamente profissional totalmente focada no branding
+                    capaz de gerar até 4x mais vendas que lojas templates vendidas por R$10, R$49 e R$87.</p>
+                <a onclick="scrollToSection('planos')" class="banner__button">CRIAR MEU NEGÓCIO</a>
+            </section>
         </section>
         <section class="cursos">
-            <p class=" cursos__destaque texto_destaque">BÓNUS ESPECIAL</p>
-            <h2 class="cursos__title">Curso completo de Dropshipping</h2>
-            <p class="cursos__text">Além da <span class="texto_destaque CA">WORKS</span> montar toda a sua estrutura
-                para
-                começar a vender, você vai receber totalmente grátis um dos melhores cursos do mercado.</p>
-            <img loading="lazy" class="cursos__img" src="/assets/img/CURSO-DE-DROP.png" alt="banner img">
-            <a class="cursos__button" onclick="scrollToSection('planos')">QUERO TER ACESSO</a>
+            <section class="cursos-tab">
+                <p class=" cursos__destaque texto_destaque">BÓNUS ESPECIAL</p>
+                <h2 class="cursos__title">Curso completo de Dropshipping</h2>
+                <p class="cursos__text">Além da <span class="texto_destaque CA">WORKS</span> montar toda a sua estrutura
+                    para
+                    começar a vender, você vai receber totalmente grátis um dos melhores cursos do mercado.</p>
+                <img loading="lazy" class="cursos__img" src="/assets/img/CURSO-DE-DROP.png" alt="banner img">
+                <a class="cursos__button" onclick="scrollToSection('planos')">QUERO TER ACESSO</a>
+            </section>
+            <img loading="lazy" class="cursos__img2" src="/assets/img/CURSO-DE-DROP.png" alt="banner img">
         </section>
         <section class="coach">
             <p class="coach__text">Chega de perder tempo tentande aprender design ou ferramentas difíceis, com a Works
                 Digital é <span class="texto_destaque CA">Baixo Investimento</span> e <span
-                    class="texto_destaque CA">Alto Impacto</span> no seu resultado.
+                    class="texto_destaque CA">Alto
+                    Impacto</span> no seu resultado.
             </p>
             <a class="coach__button" onclick="scrollToSection('planos')">QUERO UMA LOJA</a>
         </section>
         <section class="Discord">
-            <p class="Discord__destaque texto_destaque">ACESSO VITÁLICIO</p>
-            <h2 class="Discord__title">Comunidade secreta no Discord</h2>
-            <p class="Discord__text">Tenha acesso a uma comunidade super engajada onde todos os integrantes que estão lá
-                têm o mesmo objetivo: Voar neste mercado! A regra da comunidade é: um ajuda o outro!</p>
-            <img loading="lazy" class="Discord__img" src="/assets/img/DISCORD.png" alt="banner img">
-            <a class="Discord__button" onclick="scrollToSection('planos')">QUERO TER ACESSO</a>
+            <section class="Discord-tab">
+                <p class="Discord__destaque texto_destaque">ACESSO VITÁLICIO</p>
+                <h2 class="Discord__title">Comunidade secreta no Discord</h2>
+                <p class="Discord__text">Tenha acesso a uma comunidade super engajada onde todos os integrantes que
+                    estão lá
+                    têm o mesmo objetivo: Voar neste mercado! A regra da comunidade é: um ajuda o outro!</p>
+                <img loading="lazy" class="Discord__img" src="/assets/img/DISCORD.png" alt="banner img">
+                <a class="Discord__button" onclick="scrollToSection('planos')">QUERO TER ACESSO</a>
+            </section>
+            <img loading="lazy" class="Discord__img2" src="/assets/img/DISCORD.png" alt="banner img">
         </section>
         <section class="product" id="product">
             <p class="product__destaque texto_destaque">Loja profissional</p>
@@ -126,23 +148,31 @@
             </section>
         </section>
         <section class="equipe">
-            <p class="equipe__destaque texto_destaque">Nossa Equipe</p>
-            <h2 class="equipe__title">Conheça a equipe da <span class="texto_destaque"> Works Digital</span></h2>
-            <p class="equipe__text">
-                Somos uma equipe apaixonada por design web, dedicada a criar experiências online memoráveis. Nosso
-                propósito é auxiliar na comunicação clara e impactante, capturando a atenção do seu público e mantendo o
-                envolvimento.</p>
-            <img loading="lazy" class="equipe__img" src="/assets/img/EQUIPE.png" alt="banner img">
-            <a class="equipe__button" href="https://wa.me/message/7J5GNEJ7Y2I7O1">FALE CONOSCO</a>
+            <section class="equipe-tab">
+                <p class="equipe__destaque texto_destaque">Nossa Equipe</p>
+                <h2 class="equipe__title">Conheça a equipe da <span class="texto_destaque"> Works Digital</span></h2>
+                <p class="equipe__text">
+                    Somos uma equipe apaixonada por design web, dedicada a criar experiências online memoráveis. Nosso
+                    propósito é auxiliar na comunicação clara e impactante, capturando a atenção do seu público e
+                    mantendo o
+                    envolvimento.</p>
+                <img loading="lazy" class="equipe__img" src="/assets/img/EQUIPE.png" alt="banner img">
+                <a class="equipe__button" href="https://wa.me/message/7J5GNEJ7Y2I7O1">FALE CONOSCO</a>
+            </section>
+            <img loading="lazy" class="equipe__img2" src="/assets/img/EQUIPE.png" alt="banner img">
         </section>
         <section class="premios" id="premios">
-            <p class="premios__destaque texto_destaque">PREMIAÇÕES</p>
-            <h2 class="premios__title">Seja recompensado por seu esforço!</h2>
-            <p class="premios__text">Celebramos suas conquistas! Alcançar metas de vendas é motivo de orgulho. Nossa
-                equipe está aqui para reconhecer e premiar seu esforço. Vejá os premios que disponibilizamos a nossos
-                colaboradores.</p>
-            <img loading="lazy" class="premios__img" src="/assets/img/PREMIACOES.png" alt="banner img">
-            <a class="premios__button" href="premiações.html">SAIBA MAIS</a>
+            <section class="premios-tab">
+                <p class="premios__destaque texto_destaque">PREMIAÇÕES</p>
+                <h2 class="premios__title">Seja recompensado por seu esforço!</h2>
+                <p class="premios__text">Celebramos suas conquistas! Alcançar metas de vendas é motivo de orgulho. Nossa
+                    equipe está aqui para reconhecer e premiar seu esforço. Vejá os premios que disponibilizamos a
+                    nossos
+                    colaboradores.</p>
+                <img loading="lazy" class="premios__img" src="/assets/img/PREMIACOES.png" alt="banner img">
+                <a class="premios__button" href="premiações.html">SAIBA MAIS</a>
+            </section>
+            <img loading="lazy" class="premios__img2" src="/assets/img/PREMIACOES.png" alt="banner img">
         </section>
         <section class="planos" id="planos">
             <div class="planos__title">

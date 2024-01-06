@@ -29,28 +29,28 @@
 .FAQ__cards{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 1em;
-    text-align: start;
 }
 
 .FAQ__card__container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1em;
     background-color: var(--cor-Fundo);
     padding: 0.8em;
     border-radius: 0.62em;
     width: 300px;
+    justify-content: space-between;
 }
 
 .FAQ__card__pergunta{
     font-weight: 600;
     display: flex;
     align-items: center;
+    text-align: start;
+    justify-content: space-between;
 }
 
 .arrow_img{
@@ -60,6 +60,8 @@
 
 .FAQ__card__resposta{
     line-height: 1.25em;
+    justify-content: flex-start;
+    text-align: start;
 }
 
 
@@ -71,4 +73,24 @@
 }
 .FAQ__card__container--25 .FAQ__card__pergunta{
     gap: 7em;
+}
+
+@media screen and (min-width: 1024px){
+    .FAQ__card__container{
+        width: 60%;
+    }
+    .FAQ__card__pergunta{
+        justify-content: space-between;
+        text-align: start;
+        gap: 1em;
+    }
+    .FAQ__card__container--8 .FAQ__card__pergunta{
+        gap: 1em;
+    }
+    .FAQ__card__container--12 .FAQ__card__pergunta{
+        gap: 1em;
+    }
+    .FAQ__card__container--25 .FAQ__card__pergunta{
+        gap: 1em;
+    }
 }

@@ -30,6 +30,12 @@
     width: 250px;
 }
 
+.Discord__img2{
+    border-radius: 0.62em;
+    width: 250px;
+    display: none;
+}
+
 .Discord__button{
     font-size: 1.5em;
     font-weight: 500;
@@ -41,4 +47,38 @@
     animation: pulse 1s infinite;
     color: white;
     margin-bottom: 1em;
+}
+
+.Discord-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+@media screen and (min-width: 1024px){
+    .Discord{
+        flex-direction: row;
+    }
+    .Discord__img{
+        display: none;
+    }
+    .Discord__img2{
+        display: block;
+        width: 30em;
+    }
+    .Discord-tab{
+        align-items: flex-start;
+        text-align: start;
+        padding-left: 2em;
+    }
+    .Discord__text{
+        font-size: 1em;
+    }
+    .Discord__title{
+        text-align: start;
+        font-size: 1.8em;
+    }
 }

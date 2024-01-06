@@ -40,6 +40,14 @@ const swiper = new Swiper('.swiper', {
     spaceBetween: 100,
     slidesPerView: 1,
 
+    breakpoints: {
+        // when window width is >= 1024px
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        }
+    },
+    
     autoplay: {
         delay: 2000, // tempo em entre cada slide
         disableOnInteraction: false, // mantém o autoplay após a interação do usuário
@@ -55,21 +63,13 @@ const swiper = new Swiper('.swiper', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
-
-    breakpoints: {
-        // when window width is >= 1240px
-        1040: {
-          slidesPerView: 2,
-          spaceBetween: 20
-        }
     }
 });
 //CAROSSEL CONFIG - end
 
 //VIDEO SETTINGS - start
 const video = document.querySelector('.banner__video');
-video.play();
+//video.play();
 //VIDEO SETTINGS - end
 
 //FAQ config - start
