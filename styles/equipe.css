@@ -32,6 +32,7 @@
 .equipe__img2{
     border-radius: 0.62em;
     width: 19em;
+    display: none;
 }
 
 .equipe__button{

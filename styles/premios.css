@@ -32,7 +32,7 @@
 .premios__img2{
     border-radius: 0.62em;
     width: 19em;
-    font-display: none;
+    display: none;
 }
 
 .premios__button{
