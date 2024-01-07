@@ -60,13 +60,14 @@
 @media screen and (min-width: 1024px){
     .cursos{
         flex-direction: row;
+        font-size: 1.5em;
     }
     .cursos__img{
         display: none;
     }
     .cursos__img2{
         display: block;
-        width: 32em;
+        width: 30em;
     }
     .cursos-tab{
         padding-left: 2em;
@@ -78,6 +79,6 @@
     }
     .cursos__title{
         text-align: start;
-        font-size: 1.8em;
+        font-size: 2em;
     }
 }

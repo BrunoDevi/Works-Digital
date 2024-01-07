@@ -78,14 +78,25 @@
 }
 
 @media screen and (min-width: 1024px){
+    .premiaçoes__title{
+        font-size: 3em;
+        margin: 0.2em;
+    }
     .premiaçoes__topic__premios{
-        text-align: center;
+       font-size: 1.5em;
     }
     .premiaçoes__card__text{
-        padding: 0 20em;
+        padding: 0 2em;
+    }
+    .premiaçoes__card__img{
+        width: 20em;
     }
     .premiaçoes__topic__title{
         text-align: start;
+        font-size: 2em;
+    }
+    .premiaçoes__topic__text{
+        font-size: 1.2em;
     }
     .premiaçoes__title{
         text-align: center;

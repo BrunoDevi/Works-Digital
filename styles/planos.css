@@ -19,7 +19,7 @@
 }
 
 .planos__title{
-    background-color: var(--cor-Fundo);
+    background-color: #1d1d1d;
     padding: 1em;
     border-radius: 0.62em;
     border: 1px solid rgba(245, 245, 245, 0.155);
@@ -39,7 +39,7 @@
 }
 
 .planos__card__container{
-    background-color: var(--cor-Fundo);
+    background-color: #1d1d1d;
     padding: 2.5em 0.5em;
     border-radius: 0.62em;
     width: 18.75em;

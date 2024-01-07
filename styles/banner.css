@@ -59,7 +59,7 @@
     animation: pulse 1s infinite;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1024px){
     .banner{
         flex-direction: row-reverse;
         padding: 2em 3em;
@@ -76,12 +76,12 @@
         padding: 0 3em;
     }
     .banner__video{
-        width: 25em;
+        width: 35em;
     }
     .banner__title{
-        font-size: 1.7em;
+        font-size: 2em;
     }
     .banner__text{
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }

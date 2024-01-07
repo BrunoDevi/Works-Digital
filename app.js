@@ -69,7 +69,16 @@ const swiper = new Swiper('.swiper', {
 
 //VIDEO SETTINGS - start
 const video = document.querySelector('.banner__video');
-video.play();
+//video.play();
+
+const meuVideo = document.querySelector("iframe");
+
+// Adiciona um ouvinte de evento para o evento 'ended'
+meuVideo.addEventListener('ended', function() {
+    // Quando o vídeo termina, reinicia
+    this.currentTime = 0;
+    this.play();
+});
 //VIDEO SETTINGS - end
 
 //FAQ config - start

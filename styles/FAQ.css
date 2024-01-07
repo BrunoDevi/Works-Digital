@@ -38,7 +38,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 1em;
-    background-color: var(--cor-Fundo);
+    background-color:#1d1d1d;
     padding: 0.8em;
     border-radius: 0.62em;
     width: 300px;
@@ -78,6 +78,7 @@
 @media screen and (min-width: 1024px){
     .FAQ__card__container{
         width: 60%;
+        padding: 1.3em 2em;
     }
     .FAQ__card__pergunta{
         justify-content: space-between;

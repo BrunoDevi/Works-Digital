@@ -36,7 +36,7 @@
 :root{
     --cor-Primaria: #3DB1AE;
     --cor-Secundaria: #f0f0f0;
-    --cor-Fundo: #1d1d1d;
+    --cor-Fundo: black;
     --cor-gradiente: linear-gradient(90deg, rgba(221,38,128,1) 0%, rgba(116,79,158,1) 100%);
     --button-gradiente: linear-gradient(90deg, rgba(208,47,142,1) 0%, rgba(32,167,171,1) 100%);
     --font-Principal: 'Poppins', sans-serif;

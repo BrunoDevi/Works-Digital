@@ -74,6 +74,7 @@
     .premios-tab{
         text-align: start;
         align-items: flex-start;
+        padding-right: 1em;
     }
     .premios__text{
         font-size: 1em;
@@ -81,5 +82,8 @@
     .premios__title{
         text-align: start;
         font-size: 1.8em;
+    }
+    .premios__destaque{
+        font-size: 1.3em;
     }
 }
