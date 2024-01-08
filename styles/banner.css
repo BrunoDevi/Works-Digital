@@ -32,7 +32,7 @@
     width: 7.5em;
 }
 
-.banner__video{
+#banner__iframe-video{
     width: 18.1em;
     border-radius: 0.62em;
     z-index: 0;
@@ -75,8 +75,9 @@
         gap: 1.5em;
         padding: 0 3em;
     }
-    .banner__video{
+    #banner__iframe-video{
         width: 35em;
+        height: 20em;
     }
     .banner__title{
         font-size: 2em;
