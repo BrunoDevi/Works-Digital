@@ -32,41 +32,6 @@ window.addEventListener('scroll', function() {
 });
 //BOTÃO 'TOPO' - end
 
-//CAROSSEL CONFIG - start
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    loop: true,
-    speed: 300,
-    spaceBetween: 100,
-    slidesPerView: 1,
-
-    breakpoints: {
-        // when window width is >= 1024px
-        1024: {
-          slidesPerView: 2,
-          spaceBetween: 20
-        }
-    },
-    
-    autoplay: {
-        delay: 2000, // tempo em entre cada slide
-        disableOnInteraction: false, // mantém o autoplay após a interação do usuário
-    },
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }
-});
-//CAROSSEL CONFIG - end
-
 //FAQ config - start
 const cardList = document.querySelectorAll('.FAQ__card__container')
 
@@ -87,3 +52,38 @@ for(let i = 0; i < cardList.length; i++){
     }
 }
 //FAQ config - end
+
+//CAROSSEL CONFIG - start
+// const swiper = new Swiper('.swiper', {
+//     // Optional parameters
+//     loop: true,
+//     speed: 300,
+//     spaceBetween: 100,
+//     slidesPerView: 1,
+
+//     breakpoints: {
+//         // when window width is >= 1024px
+//         1024: {
+//           slidesPerView: 2,
+//           spaceBetween: 20
+//         }
+//     },
+    
+//     autoplay: {
+//         delay: 2000, // tempo em entre cada slide
+//         disableOnInteraction: false, // mantém o autoplay após a interação do usuário
+//     },
+  
+//     // If we need pagination
+//     pagination: {
+//       el: '.swiper-pagination',
+//       clickable: true,
+//     },
+  
+//     // Navigation arrows
+//     navigation: {
+//       nextEl: '.swiper-button-next',
+//       prevEl: '.swiper-button-prev',
+//     }
+// });
+//CAROSSEL CONFIG - end
