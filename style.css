@@ -11,6 +11,7 @@
 @import url('/styles/referencias.css');
 @import url('/styles/FAQ.css');
 @import url('/styles/premiaçao.css');
+@import url('/styles/footer.css');
 
 @keyframes pulse {
     0% { transform: scale(1); }
